@@ -5,6 +5,7 @@ import static org.example.poo.UIMenu.*;
 
 public class main2 {
     public static Scanner in = new Scanner(System.in);
+    public static final double FARADAY = 96_485.332_12;
     public static void main(String[] args) {
 
         Persona p1 = new Persona("Ivan", 25);
@@ -18,5 +19,6 @@ public class main2 {
         System.out.println("Para " + p1.getName() + " tenemos el id: " + p1.getId());
         System.out.println("Para " + p2.getName() + " tenemos el id: " + p2.getId());
         System.out.println("Para " + p3.getName() + " tenemos el id: " + p3.getId());
+        System.out.println("Imprimimos la Constante de Faraday: " + FARADAY);
     }
 }
